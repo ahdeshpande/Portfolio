@@ -1,0 +1,883 @@
+
+img, embed, object, video {
+    max-width: 100%;
+    display: inline-block;
+}
+
+h1, h2, h3, h4, h5, h6, .row {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+}
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+}
+
+section {
+    z-index: -2;
+}
+
+body {
+    font-family: 'Avenir Next', sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+
+.nav-icon-link:hover {
+    text-decoration: none;
+    transition: border-width 0.2s ease-in-out;
+    border-bottom: 5px solid #2863a7;
+}
+
+.nav-icon-div {
+    padding: 5px;
+}
+
+.nav-icon {
+    width: 15vmin;
+    height: 15vmin;
+}
+
+.nav-icon-fig {
+    margin: 10px;
+}
+
+.collage-thumb {
+    height: 100%;
+}
+
+.section-header-text {
+    font-family: 'Poppins', cursive;
+    color: #193D67;
+    letter-spacing: 0.42px;
+}
+
+.section-content {
+    max-width: 100%;
+}
+
+.work-header {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.work-header-text {
+    color: #4a4a4a;
+    margin-bottom: 1rem;
+    padding-bottom: 0.3rem;
+}
+
+.work-thumbnail {
+    background: #FFFFFF;
+    border: 1px solid #000;
+    padding: 0;
+    margin: 10px;
+}
+
+.work-thumbnail p {
+    margin-bottom: 5px;
+    margin-left: 5px;
+    text-align: left;
+}
+
+.work-thumbnail:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#top-navigation {
+    height: 80px;
+    background-color: #2863a7;
+    position: fixed;
+    top: 0;
+    z-index: 5;
+    width: 100%;
+}
+
+.logo {
+    padding-top: 10px;
+}
+
+.nav-link:link {
+    position: relative;
+    margin-top: 20px;
+    padding: 5px;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 2rem;
+    text-decoration: none;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+}
+
+.nav-link:hover {
+    transition: background-color 0.2s ease-in;
+    background-color: #50b4ec;
+}
+
+#top-navigation li {
+    width: 20%;
+    display: inline-block;
+    float: left;
+    text-align: center;
+}
+
+.work-thumb-figure {
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+.work-thumb-img {
+    height: 200px;
+}
+
+.work-row {
+
+}
+
+.about-me-row {
+
+}
+
+.about-me-card {
+    margin-bottom: 15px;
+}
+
+.about-meCircle {
+    padding: 0;
+}
+
+.big-text {
+    font-size: 21px;
+    color: #051A32;
+    letter-spacing: 0;
+    line-height: 28px;
+}
+
+.contact-me-section {
+
+}
+
+.social-icon {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding:0;
+    height: 48px;
+    width: 48px;
+    display: inline-block;
+}
+
+.top-nav {
+    color: #FFFFFF;
+    letter-spacing: -0.19px;
+}
+
+
+#greeting-name {
+    font-family: 'Montserrat', sans-serif;
+    color: #2863a7;
+    letter-spacing: -0.39px;
+}
+
+#greeting-design, .poppinsText {
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    letter-spacing: -0.28px;
+}
+
+#sections-div {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+
+#bottom-panel {
+    position: absolute;
+    width: 100%;
+    height: 45px;
+    background-color: #2863a7;
+}
+
+#bottom-panel p {
+    color: #ffffff;
+    line-height: 28px;
+    font-size: 14px;
+    margin: 10px;
+}
+
+#mailto:link, #mailto:visited, #mailto:active {
+    color: #2863a7;
+}
+
+#mailto:hover {
+    color: #193D67;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.pageHeader {
+    font-family: 'Poppins', sans-serif;
+    color: #2863a7;
+    letter-spacing: -0.28px;
+    padding-bottom: 3rem;
+}
+
+.workLandingPage {
+    padding-top: calc(80px + 5%);
+}
+
+.paperMockup {
+    min-height: 256px;
+}
+
+#main-container .bottom-nav {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.bottom-nav p {
+    margin: 0;
+    padding: 15px 0;
+}
+
+.leftNavigation, .rightNavigation {
+    font-family: 'Poppins', sans-serif;
+    color: #2863a7;
+    letter-spacing: -0.28px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-top: 0;
+    border-bottom: 0;
+    height: 100%;
+}
+
+.leftNavigation {
+    border-left: 0;
+    border-right: 0;
+}
+
+.rightNavigation {
+    border-right: 0;
+}
+
+.ducCounterDiv {
+    visibility: visible;
+}
+
+.ducCounterNumber {
+    font-size: 12rem;
+    color: #A0BEE0;
+    letter-spacing: 0px;
+}
+
+.ducCounterName {
+    color: #2863a7;
+}
+
+.ducImage {
+    max-height: 512px;
+}
+
+.contentErrorPage {
+    margin-top:120px;
+    margin-bottom: 60px;
+    max-height: 40vh;
+}
+
+.entire-page {
+    height: calc(100vh - 48px);
+}
+
+.outer-container {
+    position: relative;
+    overflow: hidden;
+}
+.container .work .bg {
+    position: absolute;
+    content: " ";
+    background: #9EEC7A;
+    display: block;
+    height: 200%;
+    width: 200%;
+    right: -2rem;
+    -webkit-transform: rotateZ(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotateZ(0deg);
+    z-index: -1;
+    margin-top: 4rem;
+}
+
+.container .about-me .bg {
+    position: absolute;
+    content: " ";
+    background: #ec9d33;
+    display: block;
+    height: 200%;
+    width: 200%;
+    right: 20rem;
+    -webkit-transform: rotateZ(7.7deg);
+    -ms-transform: rotate(7.7deg);
+    transform: rotateZ(7.7deg);
+    z-index: -1;
+    margin-top: -25rem;
+}
+
+.contact-me {
+    padding-bottom: 30px;
+}
+
+.container .contact-me .bg {
+    position: absolute;
+    content: " ";
+    background: #ec6b6e;
+    display: block;
+    height: 200%;
+    width: 200%;
+    right: -90rem;
+    -webkit-transform: rotateZ(-12.7deg);
+    -ms-transform: rotate(-12.7deg);
+    transform: rotateZ(-12.7deg);
+    z-index: -1;
+    margin-top: -5rem;
+}
+
+.container .workLandingPage .bg {
+    position: absolute;
+    content: " ";
+    background: #9EEC7A;
+    display: block;
+    height: 200%;
+    width: 200%;
+    right: -2rem;
+    -webkit-transform: rotateZ(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotateZ(0deg);
+    z-index: -1;
+    margin-top: -6rem;
+}
+
+.container .concept .bg {
+    position: absolute;
+    content: " ";
+    background: #ec9d33;
+    display: block;
+    height: 200%;
+    width: 200%;
+    right: 20rem;
+    -webkit-transform: rotateZ(7.7deg);
+    -ms-transform: rotate(7.7deg);
+    transform: rotateZ(7.7deg);
+    z-index: -1;
+}
+
+.container .process .bg {
+    position: absolute;
+    content: " ";
+    background: #ec6b6e;
+    display: block;
+    height: 200%;
+    width: 200%;
+    right: -25rem;
+    -webkit-transform: rotateZ(-4.7deg);
+    -ms-transform: rotate(-4.7deg);
+    transform: rotateZ(-4.7deg);
+    z-index: -1;
+    margin-top: 10rem;
+}
+
+.container .product .bg {
+    position: absolute;
+    content: " ";
+    background: #FFFFFF;
+    display: block;
+    height: 200%;
+    width: 200%;
+    right: 10rem;
+    -webkit-transform: rotateZ(5.7deg);
+    -ms-transform: rotate(5.7deg);
+    transform: rotateZ(5.7deg);
+    z-index: -1;
+    margin-top: 5rem;
+}
+
+.container .app1 .bg {
+    position: absolute;
+    content: " ";
+    background: #ec9d33;
+    display: block;
+    height: 200%;
+    width: 200%;
+    right: 20rem;
+    -webkit-transform: rotateZ(7.7deg);
+    -ms-transform: rotate(7.7deg);
+    transform: rotateZ(7.7deg);
+    z-index: -1;
+}
+
+.container .app2 .bg {
+    position: absolute;
+    content: " ";
+    background: #ec6b6e;
+    display: block;
+    height: 200%;
+    width: 200%;
+    right: -25rem;
+    -webkit-transform: rotateZ(-4.7deg);
+    -ms-transform: rotate(-4.7deg);
+    transform: rotateZ(-4.7deg);
+    z-index: -1;
+    margin-top: 10rem;
+}
+
+.container .app3 .bg {
+    position: absolute;
+    content: " ";
+    background: #EFDD45;
+    display: block;
+    height: 200%;
+    width: 200%;
+    right: 10rem;
+    -webkit-transform: rotateZ(5.7deg);
+    -ms-transform: rotate(5.7deg);
+    transform: rotateZ(5.7deg);
+    z-index: -1;
+    margin-top: 5rem;
+}
+
+.cell-highlight {
+    color: white;
+    background-color: #6995F8;
+}
+
+@media screen and (max-width: 600px){
+    .ducCounterDiv {
+        visibility: hidden;
+        width: 0;
+        padding: 0;
+    }
+
+    .ducImageDiv {
+        width: 100%;
+    }
+}
+
+.ducDiv {
+    margin: 2rem 0 2rem;
+}
+
+@media screen and (max-width: 525px) {
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    h4 {
+        font-size: 1.75rem;
+    }
+
+    h5 {
+        font-size: 1rem;
+    }
+
+    h6 {
+        font-size: 0.875rem;
+    }
+
+    .greeting {
+        padding: 1rem;
+    }
+
+    .work-header {
+        background: #FFFFFF;
+        border-radius: 20px;
+        padding: 1.5rem;
+        margin-bottom: 15px;
+        margin-top: 7rem;
+        height: 4.75rem;
+    }
+
+    .work-description-text {
+        color: #4A4A4A;
+        letter-spacing: 0.3px;
+        font-size: 1.5rem;
+    }
+
+    .menu-name {
+        font-size: 2rem;
+        color: #2863A7;
+    }
+
+    .about-me-text {
+        color: #051A32;
+        letter-spacing: 0;
+        line-height: 2rem;
+        font-size: 1.5rem;
+    }
+
+    .nav-icon-link {
+        width: calc((100% - 40px) / 2);
+        margin-left: 10px;
+        margin-right: 10px;
+        border: 5px solid transparent;
+    }
+
+    #landing-logo {
+        height: 0;
+        width: 0;
+    }
+
+    #landing-page {
+        background-size: auto, cover;
+        position: static;
+        height: 95vmax;
+        padding: calc((95vmax - 400px)/2) 0 calc((95vmax - 400px)/2);
+    }
+
+    .work-thumbnail {
+        padding: 0;
+        width: calc(100% - 20px);
+    }
+
+    .collage-thumb {
+        padding: 0;
+        width: 100%;
+    }
+
+    .about-me-card {
+        padding: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 501px) and (max-width: 767px) {
+
+    h1 {
+        font-size: 6rem;
+    }
+
+    h2 {
+        font-size: 4rem;
+    }
+
+    h3 {
+        font-size: 2.5rem;
+    }
+
+    h4 {
+        font-size: 2rem;
+    }
+
+    h5 {
+        font-size: 1rem;
+    }
+
+    h6 {
+        font-size: 0.875rem;
+    }
+
+    .greeting {
+        padding: 1.5rem;
+    }
+
+    .work-header {
+        background: #FFFFFF;
+        border-radius: 20px;
+        padding: 1.5rem;
+        margin-bottom: 15px;
+        margin-top: 8rem;
+        height: 5.5rem;
+    }
+
+    .work-description-text {
+        color: #4A4A4A;
+        letter-spacing: 0.3px;
+        font-size: 1.5rem;
+    }
+
+    .menu-name {
+        font-size: 2.5rem;
+        color: #2863A7;
+    }
+
+    .about-me-text {
+        color: #051A32;
+        letter-spacing: 0;
+        line-height: 2.25rem;
+        font-size: 1.75rem;
+    }
+
+    .nav-icon-link {
+        width: calc((100% - 160px) / 4);
+        margin-left: 20px;
+        margin-right: 20px;
+        border: 5px solid transparent;
+    }
+
+    #landing-logo {
+        height: 20vmin;
+        width: 20vmin;
+    }
+
+    #landing-page {
+        background-size: auto, cover;
+        position: static;
+        height: 90vmax;
+        padding: calc((95vmax - 600px)/2) 0 calc((95vmax - 600px)/2);
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    h1 {
+        font-size: 7rem;
+    }
+
+    h2 {
+        font-size: 4rem;
+    }
+
+    h3 {
+        font-size: 3rem;
+    }
+
+    h4 {
+        font-size: 2rem;
+    }
+
+    h5 {
+        font-size: 1rem;
+    }
+
+    h6 {
+        font-size: 0.875rem;
+    }
+
+    .greeting {
+        padding: 1.5rem;
+    }
+
+    .work-header {
+        background: #FFFFFF;
+        border-radius: 20px;
+        padding: 1.5rem;
+        margin-bottom: 15px;
+        margin-top: 8rem;
+        height: 5.75rem;
+    }
+
+    .work-description-text {
+        color: #4A4A4A;
+        letter-spacing: 0.3px;
+        font-size: 1.5rem;
+    }
+
+    .menu-name {
+        font-size: 3rem;
+        color: #2863A7;
+    }
+
+    .about-me-text {
+        color: #051A32;
+        letter-spacing: 0;
+        line-height: 2.5rem;
+        font-size: 1.875rem;
+    }
+
+    .nav-icon-link {
+        width: calc((100% - 200px) / 4);
+        margin-left: 25px;
+        margin-right: 25px;
+        border: 5px solid transparent;
+    }
+
+    #landing-logo {
+        height: 20vmin;
+        width: 20vmin;
+    }
+
+    #landing-page {
+        background-size: auto, cover;
+        position: static;
+        height: 95vmax;
+        padding: calc((95vmax - 800px)/2) 0 calc((95vmax - 800px)/2);
+    }
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+
+
+    h1 {
+        font-size: 8rem;
+    }
+
+    h2 {
+        font-size: 5rem;
+    }
+
+    h3 {
+        font-size: 3rem;
+    }
+
+    h4 {
+        font-size: 2rem;
+    }
+
+    h5 {
+        font-size: 1rem;
+    }
+
+    h6 {
+        font-size: 0.875rem;
+    }
+
+    .greeting {
+        padding: 2rem;
+    }
+
+    .work-header {
+        background: #FFFFFF;
+        border-radius: 20px;
+        padding: 1.5rem;
+        margin-bottom: 15px;
+        margin-top: 9rem;
+        height: 6rem;
+    }
+
+    .work-description-text {
+        color: #4A4A4A;
+        letter-spacing: 0.3px;
+        font-size: 1.5rem;
+    }
+
+    .menu-name {
+        font-size: 3rem;
+        color: #2863A7;
+    }
+
+    .about-me-text {
+        color: #051A32;
+        letter-spacing: 0;
+        line-height: 2.5rem;
+        font-size: 2rem;
+    }
+
+    .nav-icon-link {
+        width: calc((100% - 320px) / 4);
+        margin-left: 40px;
+        margin-right: 40px;
+        border: 5px solid transparent;
+    }
+
+    #landing-logo {
+        height: 20vmin;
+        width: 20vmin;
+    }
+
+    #landing-page {
+        background-size: auto, cover;
+        position: static;
+        height: 95vmax;
+        padding: calc((95vmax - 800px)/2) 0 calc((95vmax - 800px)/2);
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+
+    h1 {
+        font-size: 9rem;
+    }
+
+    h2 {
+        font-size: 6rem;
+    }
+
+    h3 {
+        font-size: 4rem;
+    }
+
+    h4 {
+        font-size: 2rem;
+    }
+
+    h5 {
+        font-size: 1rem;
+    }
+
+    h6 {
+        font-size: 0.875rem;
+    }
+
+    .greeting {
+        padding: 2rem;
+    }
+
+    .work-header {
+        background: #FFFFFF;
+        border-radius: 20px;
+        padding: 1.5rem;
+        margin-bottom: 15px;
+        margin-top: 10rem;
+        height: 7rem;
+    }
+
+    .work-description-text {
+        color: #4A4A4A;
+        letter-spacing: 0.3px;
+        font-size: 1.75rem;
+    }
+
+    .menu-name {
+        font-size: 4rem;
+        color: #2863A7;
+    }
+
+    .about-me-text {
+        color: #051A32;
+        letter-spacing: 0;
+        line-height: 2.5rem;
+        font-size: 2rem;
+    }
+
+    .nav-icon-link {
+        width: calc((100% - 320px) / 4);
+        margin-left: 40px;
+        margin-right: 40px;
+        border: 5px solid transparent;
+    }
+
+    #landing-logo {
+        height: 20vmin;
+        width: 20vmin;
+    }
+
+    #landing-page {
+        background-size: auto, cover;
+        position: static;
+        height: 85vmax;
+        padding: calc((85vmax - 1400px)/2) 0 calc((85vmax - 1400px)/2);
+    }
+
+    .ducImage {
+        max-height: 1024px;
+    }
+}
