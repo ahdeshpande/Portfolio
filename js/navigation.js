@@ -15,11 +15,4 @@ $(document).ready(function () {
             $('#top-navigation').fadeOut();
         }
     });
-
-});
-
-$(window).load(function () {
-
-    $('.outer-container').css("position","inherit");
-    setTimeout(function(){$(".outer-container").css("position","relative");}, 1000);
 });
