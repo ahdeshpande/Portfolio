@@ -32,7 +32,9 @@
         o = t.getElementsByTagName(a)[0], s.async = 1, s.src = n, o.parentNode.insertBefore(s, o)
     }(window, document, "script", "https://www.google-analytics.com/analytics.js", "ga"),
 ga("create", "UA-78123859-1", "auto"), ga("send", "pageview");</script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"
+integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+crossorigin="anonymous"></script>
 <script src="js/navigation.js" rel="script"></script>
 <script src=js/smooth-scroll.min.js rel="script"></script>
 <title>Abhiraj Deshpande &#183; Full-Stack Developer</title>
@@ -44,31 +46,33 @@ ga("create", "UA-78123859-1", "auto"), ga("send", "pageview");</script>
 <body>
     <header id="top-navigation" class="navigation">
         <nav>
-            <li class="navigation__list">
-                <a data-scroll href=#landing-page>
-                    <img class="logo" src="img/abhirajdeshpande.svg" alt="My Logo">
-                </a>
-            </li>
-            <li class="navigation__list">
-                <a class="nav-link" data-scroll href="#select-work">
-                    <h4>Work</h4>
-                </a>
-            </li>
-            <li class="navigation__list">
-                <a class="nav-link" data-scroll href="#about-me">
-                    <h4>About</h4>
-                </a>
-            </li>
-            <li class="navigation__list">
-                <a class="nav-link" data-scroll href="#contact-me">
-                    <h4>Contact</h4>
-                </a>
-            </li>
-            <li class="navigation__list">
-                <a class="nav-link" href="#" target="_blank">
-                    <h4>R&#233;sum&#233;</h4>
-                </a>
-            </li>
+            <ul>
+                <li class="navigation__list">
+                    <a data-scroll href=#landing-page>
+                        <img class="logo" src="img/abhirajdeshpande.svg" alt="My Logo">
+                    </a>
+                </li>
+                <li class="navigation__list">
+                    <a class="nav-link" data-scroll href="#select-work">
+                        <h4>Work</h4>
+                    </a>
+                </li>
+                <li class="navigation__list">
+                    <a class="nav-link" data-scroll href="#about-me">
+                        <h4>About</h4>
+                    </a>
+                </li>
+                <li class="navigation__list">
+                    <a class="nav-link" data-scroll href="#contact-me">
+                        <h4>Contact</h4>
+                    </a>
+                </li>
+                <li class="navigation__list">
+                    <a class="nav-link" href="#" target="_blank">
+                        <h4>R&#233;sum&#233;</h4>
+                    </a>
+                </li>
+            </ul>
         </nav>
     </header>
     <main class="main-container container">
@@ -118,11 +122,11 @@ ga("create", "UA-78123859-1", "auto"), ga("send", "pageview");</script>
             </div>
         </section>
         <section id="select-work" class="row text-center section-class work">
-            <div id="select-work-header" class="row work-header">
+            <div id="select-work-header" class="work-header">
                 <h3 class="section-header-text text-uppercase">Select Work</h3>
             </div>
-            <div id="work-content" class="text-center row section-content">
-                <div class="row work-row animatedParent animateOnce">
+            <div id="work-content" class="text-center section-content">
+                <div class="work-row animatedParent animateOnce">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 collage-thumb animated fadeInDownShort">
                         <a href="#" target="_parent">
                             <div class="row work-thumbnail">
@@ -147,7 +151,7 @@ ga("create", "UA-78123859-1", "auto"), ga("send", "pageview");</script>
                         </a>
                     </div>
                 </div>
-                <div class="row work-row animatedParent animateOnce">
+                <div class="work-row animatedParent animateOnce">
                     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 collage-thumb animated fadeInLeft">
                         <a href="#" target="_parent">
                             <div class="row work-thumbnail">
@@ -193,7 +197,7 @@ ga("create", "UA-78123859-1", "auto"), ga("send", "pageview");</script>
                         </a>
                     </div>
                 </div>
-                <div class="row work-row animatedParent animateOnce">
+                <div class="work-row animatedParent animateOnce">
                     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 collage-thumb animated fadeInLeft">
                         <a href="#" target="_parent">
                             <div class="row work-thumbnail">
@@ -239,7 +243,7 @@ ga("create", "UA-78123859-1", "auto"), ga("send", "pageview");</script>
                         </a>
                     </div>
                 </div>
-                <div class="row work-row animatedParent animateOnce">
+                <div class="work-row animatedParent animateOnce">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 collage-thumb animated fadeInUpShort">
                         <a href="#" target="_parent">
                             <div class="row work-thumbnail">
@@ -248,19 +252,19 @@ ga("create", "UA-78123859-1", "auto"), ga("send", "pageview");</script>
                                 </div>
                                 <figure class="work-thumb-figure">
                                     <img srcset="img/arapps-240w.png 240w,
-                                        img/arapps-480w.png 480w,
-                                        img/arapps-960w.png 960w"
-                                        sizes="(max-width: 280px) 240px,
-                                        (max-width: 480px) 440px,
-                                        960px"
-                                        src="img/arapps-960w.png" class="work-thumb-img" alt="AR Apps Thumbnail">
+                                    img/arapps-480w.png 480w,
+                                    img/arapps-960w.png 960w"
+                                    sizes="(max-width: 280px) 240px,
+                                    (max-width: 480px) 440px,
+                                    960px"
+                                    src="img/arapps-960w.png" class="work-thumb-img" alt="AR Apps Thumbnail">
                                 </figure>
                                 <p class="work-description-text">Design of Augmented Reality Apps</p>
                             </div>
                         </a>
                     </div>
                 </div>
-                <div class="row work-row animatedParent animateOnce">
+                <div class="work-row animatedParent animateOnce">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 collage-thumb animated fadeInUpShort">
                         <a href="#" target="_parent">
                             <div class="row work-thumbnail">
@@ -269,12 +273,12 @@ ga("create", "UA-78123859-1", "auto"), ga("send", "pageview");</script>
                                 </div>
                                 <figure class="work-thumb-figure">
                                     <img srcset="img/movie-trailer-240w.png 240w,
-                                        img/movie-trailer-480w.png 480w,
-                                        img/movie-trailer-960w.png 960w"
-                                        sizes="(max-width: 280px) 240px,
-                                        (max-width: 480px) 440px,
-                                        960px"
-                                        src="img/movie-trailer-960w.png" class="work-thumb-img"
+                                    img/movie-trailer-480w.png 480w,
+                                    img/movie-trailer-960w.png 960w"
+                                    sizes="(max-width: 280px) 240px,
+                                    (max-width: 480px) 440px,
+                                    960px"
+                                    src="img/movie-trailer-960w.png" class="work-thumb-img"
                                     alt="Movie Trailer Website Thumbnail">
                                 </figure>
                                 <p class="work-description-text">A website that shows list of movies, their information and plays the movie trailer.</p>
@@ -285,11 +289,11 @@ ga("create", "UA-78123859-1", "auto"), ga("send", "pageview");</script>
             </div>
         </section>
         <article id="about-me" class="row text-center section-class about-me">
-            <div id="about-me-header" class="row work-header">
+            <div id="about-me-header" class="work-header">
                 <h3 class="section-header-text text-uppercase">About Me</h3>
             </div>
-            <ul id="about-me-content" class="text-center row section-content">
-                <li class="row about-me-row animatedParent animateOnce section-content__list">
+            <ul id="about-me-content" class="text-center section-content">
+                <li class="about-me-row animatedParent animateOnce section-content__list">
                     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 about-me-card animated fadeInLeftShort">
                         <div class="row">
                             <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 about-meCircle">
@@ -313,7 +317,7 @@ ga("create", "UA-78123859-1", "auto"), ga("send", "pageview");</script>
                         </div>
                     </div>
                 </li>
-                <li class="row about-me-row animatedParent animateOnce section-content__list">
+                <li class="about-me-row animatedParent animateOnce section-content__list">
                     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 about-me-card animated fadeInLeftShort">
                         <div class="row">
                             <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 about-meCircle">
@@ -340,7 +344,7 @@ ga("create", "UA-78123859-1", "auto"), ga("send", "pageview");</script>
                       </div>
                   </div>
               </li>
-              <li class="row about-me-row animatedParent animateOnce section-content__list">
+              <li class="about-me-row animatedParent animateOnce section-content__list">
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 about-me-card animated fadeInLeftShort">
                     <div class=row>
                         <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 about-meCircle">
@@ -365,7 +369,7 @@ ga("create", "UA-78123859-1", "auto"), ga("send", "pageview");</script>
                     </div>
                 </div>
             </li>
-            <li class="row about-me-row animatedParent animateOnce section-content__list">
+            <li class="about-me-row animatedParent animateOnce section-content__list">
                 <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 about-me-card animated fadeInLeftShort">
                     <div class="row">
                         <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 about-meCircle">
@@ -389,27 +393,27 @@ ga("create", "UA-78123859-1", "auto"), ga("send", "pageview");</script>
                     </div>
                 </div>
             </li>
-        </section>
+        </ul>
     </article>
     <article id="contact-me" class="row text-center section-class contact-me">
-        <div id=contact-me-header class="row work-header">
+        <div id=contact-me-header class="work-header">
             <h3 class="section-header-text text-uppercase">Contact Me</h3>
         </div>
-        <section id="contact-me-content" class="text-center row section-content animatedParent animateOnce">
+        <section id="contact-me-content" class="text-center section-content animatedParent animateOnce">
             <h4 class="animated growIn">Everything begins with a Hi!</h4><br>
             <p class="about-me-text contact-me-section animated bounceInDown">Drop me an
                 <a class="mailto" href="mailto:ahd4cu@virginia.edu?Subject=Hi%20Abhiraj!">email</a>.
             </p><br>
             <div class="text-center animatedParent animateOnce">
                 <div class="social-icon animated pulse"><a href="https://www.linkedin.com/in/abhirajdeshpande"
-                   target="_blank">
-                   <img src="img/LinkedIn@1x.png" alt="LinkedIn"></a>
-               </div>
-               <div class="social-icon animated pulse"><a href="https://www.behance.net/ahdeshpande"
-                   target="_blank">
-                   <img src="img/Behance@1x.png" alt="Behance"></a>
-               </div>
-               <div class="social-icon animated pulse"><a href="https://twitter.com/_ahdeshpande" target="_blank">
+                 target="_blank">
+                 <img src="img/LinkedIn@1x.png" alt="LinkedIn"></a>
+             </div>
+             <div class="social-icon animated pulse"><a href="https://www.behance.net/ahdeshpande"
+                 target="_blank">
+                 <img src="img/Behance@1x.png" alt="Behance"></a>
+             </div>
+             <div class="social-icon animated pulse"><a href="https://twitter.com/_ahdeshpande" target="_blank">
                 <img src="img/Twitter@1x.png" alt="Twitter"></a>
             </div>
         </div>
