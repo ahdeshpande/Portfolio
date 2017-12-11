@@ -1,10 +1,19 @@
 
-img, embed, object, video {
+img,
+embed,
+object,
+video {
     max-width: 100%;
     display: inline-block;
 }
 
-h1, h2, h3, h4, h5, h6, .row {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.row {
     padding: 0;
     margin: 0;
 }
@@ -13,7 +22,10 @@ ul {
     padding: 0;
 }
 
-a:link, a:visited, a:hover, a:active {
+a:link,
+a:visited,
+a:hover,
+a:active {
     text-decoration: none;
 }
 
@@ -22,7 +34,7 @@ section {
 }
 
 body {
-    font-family: 'Avenir Next', sans-serif;
+    font-family: "Avenir Next", sans-serif;
 }
 
 .hidden {
@@ -53,13 +65,17 @@ body {
 }
 
 .section-header-text {
-    font-family: 'Poppins', cursive;
-    color: #193D67;
+    font-family: "Poppins", cursive;
+    color: #193d67;
     letter-spacing: 0.42px;
 }
 
 .section-content {
     max-width: 100%;
+}
+
+.section-content__list {
+    list-style-type: none;
 }
 
 .work-header {
@@ -73,25 +89,19 @@ body {
 }
 
 .work-thumbnail {
-    background: #FFFFFF;
+    background: #fff;
     border: 1px solid #000;
     padding: 0;
     margin: 10px;
-}
-
-.work-thumbnail p {
-    margin-bottom: 5px;
-    margin-left: 5px;
-    text-align: left;
 }
 
 .work-thumbnail:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-#top-navigation {
+.navigation {
     height: 80px;
-    background-color: #2863a7;
+    background: #2863a7;
     position: fixed;
     top: 0;
     z-index: 5;
@@ -106,7 +116,7 @@ body {
     position: relative;
     margin-top: 20px;
     padding: 5px;
-    color: #ffffff;
+    color: #fff;
     display: inline-block;
     font-size: 2rem;
     text-decoration: none;
@@ -116,11 +126,11 @@ body {
 }
 
 .nav-link:hover {
-    transition: background-color 0.2s ease-in;
-    background-color: #50b4ec;
+    transition: background 0.2s ease-in;
+    background: #50b4ec;
 }
 
-#top-navigation li {
+.navigation__list {
     width: 20%;
     display: inline-block;
     float: left;
@@ -130,18 +140,6 @@ body {
 .work-thumb-figure {
     margin-bottom: 5px;
     padding: 10px;
-}
-
-.work-thumb-img {
-    height: 200px;
-}
-
-.work-row {
-
-}
-
-.about-me-row {
-
 }
 
 .about-me-card {
@@ -154,13 +152,9 @@ body {
 
 .big-text {
     font-size: 21px;
-    color: #051A32;
+    color: #051a32;
     letter-spacing: 0;
     line-height: 28px;
-}
-
-.contact-me-section {
-
 }
 
 .social-icon {
@@ -173,56 +167,59 @@ body {
 }
 
 .top-nav {
-    color: #FFFFFF;
+    color: #fff;
     letter-spacing: -0.19px;
 }
 
 
-#greeting-name {
-    font-family: 'Montserrat', sans-serif;
+.greeting-name {
+    font-family: "Montserrat", sans-serif;
     color: #2863a7;
     letter-spacing: -0.39px;
 }
 
-#greeting-design, .poppinsText {
-    font-family: 'Poppins', sans-serif;
-    color: #000000;
+.greeting-design,
+.poppinsText {
+    font-family: "Poppins", sans-serif;
+    color: #000;
     letter-spacing: -0.28px;
 }
 
-#sections-div {
+.sections-div {
     display: flex;
     flex-wrap: wrap;
     margin-top: 30px;
 }
 
 
-#bottom-panel {
+.bottom-panel {
     position: absolute;
     width: 100%;
     height: 45px;
-    background-color: #2863a7;
+    background: #2863a7;
 }
 
-#bottom-panel p {
-    color: #ffffff;
+.bottom-panel__text {
+    color: #fff;
     line-height: 28px;
     font-size: 14px;
     margin: 10px;
 }
 
-#mailto:link, #mailto:visited, #mailto:active {
+.mailto:link,
+.mailto:visited,
+.mailto:active {
     color: #2863a7;
 }
 
-#mailto:hover {
-    color: #193D67;
+.mailto:hover {
+    color: #193d67;
     text-decoration: none;
     font-weight: bold;
 }
 
 .pageHeader {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     color: #2863a7;
     letter-spacing: -0.28px;
     padding-bottom: 3rem;
@@ -236,23 +233,24 @@ body {
     min-height: 256px;
 }
 
-#main-container .bottom-nav {
+.main-container .bottom-nav {
     margin-top: 20px;
     margin-bottom: 20px;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
 }
 
-.bottom-nav p {
+.bottom-nav__text {
     margin: 0;
     padding: 15px 0;
 }
 
-.leftNavigation, .rightNavigation {
-    font-family: 'Poppins', sans-serif;
+.leftNavigation,
+.rightNavigation {
+    font-family: "Poppins", sans-serif;
     color: #2863a7;
     letter-spacing: -0.28px;
-    background-color: transparent;
+    background: transparent;
     border: 1px solid black;
     border-top: 0;
     border-bottom: 0;
@@ -274,7 +272,7 @@ body {
 
 .ducCounterNumber {
     font-size: 12rem;
-    color: #A0BEE0;
+    color: #a0bee0;
     letter-spacing: 0px;
 }
 
@@ -303,7 +301,7 @@ body {
 .container .work .bg {
     position: absolute;
     content: " ";
-    background: #9EEC7A;
+    background: #9eec7a;
     display: block;
     height: 200%;
     width: 200%;
@@ -352,7 +350,7 @@ body {
 .container .workLandingPage .bg {
     position: absolute;
     content: " ";
-    background: #9EEC7A;
+    background: #9eec7a;
     display: block;
     height: 200%;
     width: 200%;
@@ -396,7 +394,7 @@ body {
 .container .product .bg {
     position: absolute;
     content: " ";
-    background: #FFFFFF;
+    background: #fff;
     display: block;
     height: 200%;
     width: 200%;
@@ -440,7 +438,7 @@ body {
 .container .app3 .bg {
     position: absolute;
     content: " ";
-    background: #EFDD45;
+    background: #efdd45;
     display: block;
     height: 200%;
     width: 200%;
@@ -454,7 +452,7 @@ body {
 
 .cell-highlight {
     color: white;
-    background-color: #6995F8;
+    background: #6995f8;
 }
 
 @media screen and (max-width: 600px){
@@ -504,7 +502,7 @@ body {
     }
 
     .work-header {
-        background: #FFFFFF;
+        background: #fff;
         border-radius: 20px;
         padding: 1.5rem;
         margin-bottom: 15px;
@@ -513,18 +511,21 @@ body {
     }
 
     .work-description-text {
-        color: #4A4A4A;
+        color: #4a4a4a;
         letter-spacing: 0.3px;
         font-size: 1.5rem;
+        margin-bottom: 5px;
+        margin-left: 5px;
+        text-align: left;
     }
 
     .menu-name {
         font-size: 2rem;
-        color: #2863A7;
+        color: #2863a7;
     }
 
     .about-me-text {
-        color: #051A32;
+        color: #051a32;
         letter-spacing: 0;
         line-height: 2rem;
         font-size: 1.5rem;
@@ -537,12 +538,12 @@ body {
         border: 5px solid transparent;
     }
 
-    #landing-logo {
+    .landing-logo {
         height: 0;
         width: 0;
     }
 
-    #landing-page {
+    .landing-page {
         background-size: auto, cover;
         position: static;
         height: 95vmax;
@@ -596,7 +597,7 @@ body {
     }
 
     .work-header {
-        background: #FFFFFF;
+        background: #fff;
         border-radius: 20px;
         padding: 1.5rem;
         margin-bottom: 15px;
@@ -605,18 +606,21 @@ body {
     }
 
     .work-description-text {
-        color: #4A4A4A;
+        color: #4a4a4a;
         letter-spacing: 0.3px;
         font-size: 1.5rem;
+        margin-bottom: 5px;
+        margin-left: 5px;
+        text-align: left;
     }
 
     .menu-name {
         font-size: 2.5rem;
-        color: #2863A7;
+        color: #2863a7;
     }
 
     .about-me-text {
-        color: #051A32;
+        color: #051a32;
         letter-spacing: 0;
         line-height: 2.25rem;
         font-size: 1.75rem;
@@ -629,12 +633,12 @@ body {
         border: 5px solid transparent;
     }
 
-    #landing-logo {
+    .landing-logo {
         height: 20vmin;
         width: 20vmin;
     }
 
-    #landing-page {
+    .landing-page {
         background-size: auto, cover;
         position: static;
         height: 90vmax;
@@ -674,7 +678,7 @@ body {
     }
 
     .work-header {
-        background: #FFFFFF;
+        background: #fff;
         border-radius: 20px;
         padding: 1.5rem;
         margin-bottom: 15px;
@@ -683,18 +687,21 @@ body {
     }
 
     .work-description-text {
-        color: #4A4A4A;
+        color: #4a4a4a;
         letter-spacing: 0.3px;
         font-size: 1.5rem;
+        margin-bottom: 5px;
+        margin-left: 5px;
+        text-align: left;
     }
 
     .menu-name {
         font-size: 3rem;
-        color: #2863A7;
+        color: #2863a7;
     }
 
     .about-me-text {
-        color: #051A32;
+        color: #051a32;
         letter-spacing: 0;
         line-height: 2.5rem;
         font-size: 1.875rem;
@@ -707,12 +714,12 @@ body {
         border: 5px solid transparent;
     }
 
-    #landing-logo {
+    .landing-logo {
         height: 20vmin;
         width: 20vmin;
     }
 
-    #landing-page {
+    .landing-page {
         background-size: auto, cover;
         position: static;
         height: 95vmax;
@@ -753,7 +760,7 @@ body {
     }
 
     .work-header {
-        background: #FFFFFF;
+        background: #fff;
         border-radius: 20px;
         padding: 1.5rem;
         margin-bottom: 15px;
@@ -762,18 +769,21 @@ body {
     }
 
     .work-description-text {
-        color: #4A4A4A;
+        color: #4a4a4a;
         letter-spacing: 0.3px;
         font-size: 1.5rem;
+        margin-bottom: 5px;
+        margin-left: 5px;
+        text-align: left;
     }
 
     .menu-name {
         font-size: 3rem;
-        color: #2863A7;
+        color: #2863a7;
     }
 
     .about-me-text {
-        color: #051A32;
+        color: #051a32;
         letter-spacing: 0;
         line-height: 2.5rem;
         font-size: 2rem;
@@ -786,12 +796,12 @@ body {
         border: 5px solid transparent;
     }
 
-    #landing-logo {
+    .landing-logo {
         height: 20vmin;
         width: 20vmin;
     }
 
-    #landing-page {
+    .landing-page {
         background-size: auto, cover;
         position: static;
         height: 95vmax;
@@ -832,7 +842,7 @@ body {
     }
 
     .work-header {
-        background: #FFFFFF;
+        background: #fff;
         border-radius: 20px;
         padding: 1.5rem;
         margin-bottom: 15px;
@@ -841,18 +851,21 @@ body {
     }
 
     .work-description-text {
-        color: #4A4A4A;
+        color: #4a4a4a;
         letter-spacing: 0.3px;
         font-size: 1.75rem;
+        margin-bottom: 5px;
+        margin-left: 5px;
+        text-align: left;
     }
 
     .menu-name {
         font-size: 4rem;
-        color: #2863A7;
+        color: #2863a7;
     }
 
     .about-me-text {
-        color: #051A32;
+        color: #051a32;
         letter-spacing: 0;
         line-height: 2.5rem;
         font-size: 2rem;
@@ -865,12 +878,12 @@ body {
         border: 5px solid transparent;
     }
 
-    #landing-logo {
+    .landing-logo {
         height: 20vmin;
         width: 20vmin;
     }
 
-    #landing-page {
+    .landing-page {
         background-size: auto, cover;
         position: static;
         height: 85vmax;
